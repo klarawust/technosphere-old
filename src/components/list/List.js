@@ -1,8 +1,8 @@
 function List({ title, entries }) {
   return (
-    <div className="List">
+    <div>
       <h1>{title}</h1>
-      <ul>
+      <ul className="flex flex-row gap-8 text-green-400">
         {entries.map((name, index) => (
           <li key={index}>{name}</li>
         ))}

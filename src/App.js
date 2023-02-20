@@ -1,18 +1,20 @@
-import "./App.css";
-import List from "./components/List";
-import Navbar from "./components/Navbar";
-
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
-  const venner = ["Tale", "Aurora", "Frida", "Johanna"];
-  const bikkjer = ["Labradoodle", "Aurora", "Frida", "Johanna"];
   return (
-    <div>
-      <List entries={venner} title="Venner" />
-      <List entries={bikkjer} title="Bikkjene mine" />
-      <img src="meg.png" alt="meg"></img>
-      <Navbar />
-    </div>
+    <body>
+      <div className="mx-16">
+        <Navbar />
+        <section className="flex flex-row gap-64">
+          <p className="font-serif">
+            Velkommen hit min venn.
+            <br /> Klara, 21 år gammel, progg4life, cez4prez
+          </p>
+        </section>
+        <img className="w-96" src="meg.jpg" alt="meg uten tenner" />
+        <img className="" src="kokko.jpeg" alt="meg uten tenner" />
+      </div>
+    </body>
   );
 }
 
