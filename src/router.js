@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import Books from "./Books";
+import Meg from "./Meg";
 import Venner from "./Venner";
 
 export const router = createBrowserRouter([
@@ -13,7 +13,7 @@ export const router = createBrowserRouter([
     element: <Venner />,
   },
   {
-    path: "/books",
-    element: <Books />,
+    path: "/meg",
+    element: <Meg />,
   },
 ]);
