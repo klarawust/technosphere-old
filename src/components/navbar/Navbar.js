@@ -1,25 +1,25 @@
 import { NavLink } from "./NavLink.js";
+import tittelbilde from "../../images/helloklaracom.png";
 
 function Navbar({ links }) {
   const navItems = [
-    { label: "Hjem", url: "/" },
-    { label: "Om meg", url: "/meg" },
-    { label: "Prosjekter", url: "/" },
-    { label: "CV", url: "/" },
-    { label: "Venner", url: "/venner" },
+    { label: "HJEM", url: "/" },
+    { label: "CV", url: "/CV" },
+    { label: "VENNER", url: "/venner" },
   ];
 
   return (
-    <nav>
-      <ul className="flex flex-row text-blue-500 w-full my-10 gap-10 text-xl font-mono">
+    <nav className="flex flex-col gap-5 m-5 text-center">
+      <ul className="grid grid-cols-3 text-blue-300 w-screen text-m font-mono">
         {navItems.map((navItem) => (
           <NavLink
-            onClick={() => console.log(navItem.label)}
+            onClick={() => navItem.label}
             key={navItem.label}
             navItem={navItem}
           />
         ))}
       </ul>
+      <img src={tittelbilde} alt="tittel" />
     </nav>
   );
 }
