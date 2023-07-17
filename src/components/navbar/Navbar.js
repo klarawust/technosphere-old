@@ -1,5 +1,5 @@
 import { NavLink } from "./NavLink.js";
-import tittelbilde from "../../images/helloklaracom.png";
+import helloklara from "../../images/annet/helloklara.png";
 
 function Navbar({ links }) {
   const navItems = [
@@ -9,7 +9,7 @@ function Navbar({ links }) {
   ];
 
   return (
-    <nav className="flex flex-col gap-5 m-5 text-center">
+    <nav className="flex flex-col gap-1 text-center mt-5">
       <ul className="grid grid-cols-3 text-blue-300 w-screen text-m font-mono">
         {navItems.map((navItem) => (
           <NavLink
@@ -19,7 +19,7 @@ function Navbar({ links }) {
           />
         ))}
       </ul>
-      <img src={tittelbilde} alt="tittel" />
+      <img src={helloklara} alt="tittel" />
     </nav>
   );
 }

@@ -1,13 +1,19 @@
 import React from "react";
-import splashImage from "..//images/splash.png";
+import storstjerne from "../images/annet/storstjerne.png";
+import litenstjerne from "../images/annet/stjerne.png";
 
 function Hjem() {
   return (
     <div className="">
       <img
-        className="absolute ml-48 mt-16"
-        src={splashImage}
-        alt="stjerneillustrasjon"
+        className="absolute w-4/12 ml-52 mt-16"
+        src={storstjerne}
+        alt="stor stjerne illustrasjon"
+      ></img>
+      <img
+        className="absolute justify-self-end w-72 mt-96"
+        src={litenstjerne}
+        alt="stor stjerne illustrasjon"
       ></img>
       <div className="flex flex-col text-xs text-blue-400 underline absolute ml-96 mt-52">
         <a className="hover:text-sm" href="https://github.com/klarawust">
