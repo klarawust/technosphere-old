@@ -2,6 +2,7 @@ import Navbar from "../components/navbar/Navbar";
 import React from "react";
 import List from "../components/list/List";
 import isak from "../images/venner/isak.webp";
+import mikkel from "../images/venner/mikkel_1280.webp";
 
 function Venner() {
   const venner = [
@@ -20,6 +21,7 @@ function Venner() {
       </div>
       <div>
         <img className="w-96" src={isak} alt="isak" />
+        <img className="w-96" src={mikkel} alt="mikkel" />
       </div>
     </body>
   );

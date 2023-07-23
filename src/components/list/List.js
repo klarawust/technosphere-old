@@ -8,6 +8,7 @@ function List({ title, entries }) {
             <a className="hover:text-lg" href={friend.url}>
               {friend.name}
             </a>
+            <img className="w-96" src={entries.bilde} alt="bilde av venn" />
           </li>
         ))}
       </ul>
