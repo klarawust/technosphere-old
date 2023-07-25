@@ -9,7 +9,7 @@ function App() {
     <main>
       <Navbar />
       <div className="flex">
-        <div className="w-3/4 font-mono mx-20">
+        <div className=" w-3/4 font-mono mx-20">
           <Hjem />
           <Meg />
         </div>
