@@ -16,7 +16,7 @@ function Venner() {
   return (
     <body>
       <Navbar />
-      <div className="mx-16">
+      <div className="mx-16 flex flex-row">
         <List entries={venner} title="" link={venner}></List>
       </div>
     </body>
