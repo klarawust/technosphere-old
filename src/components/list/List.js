@@ -5,7 +5,7 @@ function List({ title, entries }) {
       <ul className="flex flex-row flex-wrap gap-4">
         {entries.map((friend) => (
           <li key={friend.url}>
-            <a className="hover:text-lg" href={friend.url}>
+            <a className="hover:text-xl" href={friend.url}>
               {friend.name}
               <img className="h-80" src={friend.bilde} alt="bilde av venn" />
             </a>

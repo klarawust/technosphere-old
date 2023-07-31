@@ -1,4 +1,3 @@
-import barn from "../../images/bildekant/meg.jpg";
 import tbane from "../../images/bildekant/tbane_1280.webp";
 import opera from "../../images/bildekant/opera_1280.webp";
 //import asparges from "../../images/bildekant/asparges_1280.webp";
@@ -18,7 +17,6 @@ function Bildekant() {
       <img src={opera} alt="ligger på operataket" />
       <img src={sykkel} alt="meg på sykkel" />
       <img src={måltid} alt="middag med kollektivet" />
-      <img src={barn} alt="mistet tann" />
       <img src={trikk} alt="nathalie + trikk" />
 
       {/* <img
