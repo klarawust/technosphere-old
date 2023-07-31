@@ -5,10 +5,7 @@ function Meg() {
   return (
     <body>
       <Navbar />
-      <div className="mx-16">
-        <h1>utdanning</h1>
-        <p>kateter</p>
-      </div>
+      <div className="mx-16"></div>
     </body>
   );
 }

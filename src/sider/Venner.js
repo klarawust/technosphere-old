@@ -3,20 +3,25 @@ import React from "react";
 import List from "../components/list/List";
 import isak from "../images/venner/isak.webp";
 import mikkel from "../images/venner/mikkel_1280.webp";
+import magnus from "../images/venner/magnus_1280.webp";
+import aurora from "../images/venner/aurora_1280.webp";
+import nuutti from "../images/venner/nuutti_1280.webp";
+import mattias from "../images/venner/mattias_1280.webp";
 
 function Venner() {
   const venner = [
-    { name: "Magnus", url: "https://www.magnus.ouren.no" },
+    { name: "Aurora", url: "https://www.aurorakennedy.com", bilde: aurora },
+    { name: "Mikkel", url: "https://www.mikkel.no", bilde: mikkel },
     { name: "Isak", url: "https://isaks.io/", bilde: isak },
-    { name: "Nuutti", url: "https://nuutti.no" },
-    { name: "Mattias", url: "https://www.mattiastofte.dev" },
-    { name: "Mikkel (bror)", url: "https://www.mikkel.no", bilde: mikkel },
+    { name: "Magnus", url: "https://www.magnus.ouren.no", bilde: magnus },
+    { name: "Nuutti", url: "https://nuutti.no", bilde: nuutti },
+    { name: "Mattias", url: "https://www.mattiastofte.dev", bilde: mattias },
   ];
 
   return (
     <body>
       <Navbar />
-      <div className="mx-16 flex flex-row">
+      <div className="m-16">
         <List entries={venner} title="" link={venner}></List>
       </div>
     </body>
