@@ -4,8 +4,8 @@ import helloklara from "../../images/annet/helloklara.png";
 function Navbar({ links }) {
   const navItems = [
     { label: "HJEM", url: "/" },
-    { label: "CV", url: "/CV" },
     { label: "VENNER", url: "/venner" },
+    { label: "CV", url: "/CV" },
   ];
 
   return (

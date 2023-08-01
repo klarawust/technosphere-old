@@ -4,9 +4,9 @@ import litenstjerne from "../images/annet/stjerne.png";
 
 function Hjem() {
   return (
-    <div className=" h-[45vw]">
-      <div className="w-[40vw] ml-[8vw] pt-[8vw]">
-        <div className="flex flex-col absolute m-[10vw] text-[1vw] text-blue-400 underline z-10">
+    <div className="sm:h-[45vw]">
+      <div className="sm:w-[40vw] sm:ml-[8vw] pt-[8vw] w-full">
+        <div className="flex flex-col absolute sm:m-[10vw] m-[18vw] sm:text-[1vw] text-[3vw]  text-blue-400 underline z-10">
           <a className="hover:text-sm" href="https://github.com/klarawust">
             github.com/klarawust
           </a>

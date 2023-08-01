@@ -6,7 +6,7 @@ function List({ title, entries }) {
           <li key={friend.url}>
             <a className="hover:text-xl hover:bg-amber-200" href={friend.url}>
               {friend.name}
-              <img className="h-80" src={friend.bilde} alt="bilde av venn" />
+              <img className="h-64" src={friend.bilde} alt="bilde av venn" />
             </a>
           </li>
         ))}
