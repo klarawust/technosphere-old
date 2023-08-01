@@ -8,12 +8,12 @@ function App() {
   return (
     <main>
       <Navbar />
-      <div className="flex">
-        <div className=" w-3/4 font-mono mx-20">
+      <div className="grid grid-cols-8">
+        <div className="col-span-6 font-mono mx-20">
           <Hjem />
           <Meg />
         </div>
-        <div className="w-1/4">
+        <div className="col-span-1">
           <Bildekant />
         </div>
       </div>

@@ -10,7 +10,7 @@ import måltid from "../../images/bildekant/måltid_1280.webp";
 
 function Bildekant() {
   return (
-    <ul className="flex flex-col mt-10 pr-28 self-end">
+    <ul className="flex flex-col mt-10 self-end">
       <img src={tbane} alt="aurora og meg på banen" />
       <img src={paraply} alt="lina og sigrid med paraply" />
       <img src={roskilde} alt="roskilde" />

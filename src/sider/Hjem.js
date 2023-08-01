@@ -4,9 +4,9 @@ import litenstjerne from "../images/annet/stjerne.png";
 
 function Hjem() {
   return (
-    <div className="flex flex-col">
-      <div className="relative w-xs py-48">
-        <div className="flex flex-col text-xs text-blue-400 underline ml-96 z-20">
+    <div className=" h-[50vw]">
+      <div className="w-[40vw] ml-[8vw] pt-[8vw]">
+        <div className="flex flex-col absolute m-[10vw] text-[1vw] text-blue-400 underline z-10">
           <a className="hover:text-sm" href="https://github.com/klarawust">
             github.com/klarawust
           </a>
@@ -21,16 +21,18 @@ function Hjem() {
           </a>
         </div>
         <img
-          className="w-6/12 left-52 top-16 absolute z-10"
+          className="z-0"
           src={storstjerne}
           alt="stor stjerne illustrasjon"
         ></img>
       </div>
-      <img
-        className="justify-self-end w-72 mt-16"
-        src={litenstjerne}
-        alt="stor stjerne illustrasjon"
-      ></img>
+      <div className="w-[15vw] absolute right-96">
+        <img
+          className="z-0"
+          src={litenstjerne}
+          alt="liten stjerne illustrasjon"
+        ></img>
+      </div>
     </div>
   );
 }

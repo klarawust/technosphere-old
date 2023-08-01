@@ -6,7 +6,7 @@ import skintyfia from "../../src/images/album/skintyfia_1280.webp";
 function Meg() {
   return (
     <body>
-      <div className="flex flex-col gap-12 text-xl m-20">
+      <div className="flex flex-col gap-12 text-xl">
         <h1 className="text-4xl text-sky-600">OM MEG</h1>
         <div className="flex flex-row gap-24">
           <div className="text-md font-sans font-thin">
