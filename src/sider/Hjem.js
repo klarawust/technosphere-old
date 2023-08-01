@@ -16,7 +16,10 @@ function Hjem() {
           >
             instagram.com/klarawustenberg
           </a>
-          <a className="hover:text-sm" href="www.linkedin.com/in/klarawust">
+          <a
+            className="hover:text-sm"
+            href="https://www.linkedin.com/in/klarawust"
+          >
             linkedin.com/klarawust
           </a>
         </div>
