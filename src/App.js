@@ -10,7 +10,7 @@ function App() {
     <main>
       <Navbar />
       <div className="grid grid-cols-8">
-        <div className="col-span-6 font-mono mx-20">
+        <div className="col-span-6 font-mono mx-[10vw]">
           <Hjem />
           <Meg />
           <Prosjekter />

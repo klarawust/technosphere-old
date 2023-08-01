@@ -1,11 +1,10 @@
 function List({ title, entries }) {
   return (
-    <div>
-      <h1 className="text-2xl mb-4 font-mono text-red-500">{title}</h1>
+    <div className="font-mono text-center">
       <ul className="flex flex-row flex-wrap gap-4">
         {entries.map((friend) => (
           <li key={friend.url}>
-            <a className="hover:text-xl" href={friend.url}>
+            <a className="hover:text-xl hover:bg-amber-200" href={friend.url}>
               {friend.name}
               <img className="h-80" src={friend.bilde} alt="bilde av venn" />
             </a>
