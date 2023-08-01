@@ -9,22 +9,18 @@ import måltid from "../../images/bildekant/måltid_1280.webp";
 //import hageselfie from "../../images/bildekant/hageselfie_1280.webp";
 
 function Bildekant() {
-  return (
-    <ul className="flex flex-col mt-10 self-end">
-      <img src={tbane} alt="aurora og meg på banen" />
-      <img src={paraply} alt="lina og sigrid med paraply" />
-      <img src={roskilde} alt="roskilde" />
-      <img src={opera} alt="ligger på operataket" />
-      <img src={sykkel} alt="meg på sykkel" />
-      <img src={måltid} alt="middag med kollektivet" />
-      <img src={trikk} alt="nathalie + trikk" />
+  const images = [tbane, opera, trikk, sykkel, paraply, roskilde, måltid];
 
-      {/* <img
-        className="w-56 rotate-90 self-end"
-        src={hageselfie}
-        alt="hageselfie"
-      /> */}
-    </ul>
+  return (
+    <>
+      <ul className="flex flex-col mt-10 self-end">
+        {images.map((img, index) => (
+          <li key={index}>
+            <img src={img} alt="bilde" />
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }
 
