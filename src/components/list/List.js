@@ -1,7 +1,7 @@
-function List({ title, entries }) {
+function List({ entries }) {
   return (
     <div className="font-mono text-center">
-      <ul className="flex flex-row flex-wrap gap-4">
+      <ul className="flex flex-row flex-wrap justify-center gap-4">
         {entries.map((friend) => (
           <li key={friend.url}>
             <a className="hover:text-xl hover:bg-amber-200" href={friend.url}>
