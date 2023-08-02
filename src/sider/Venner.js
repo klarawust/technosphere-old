@@ -10,12 +10,16 @@ import mattias from "../images/venner/mattias_1280.webp";
 
 function Venner() {
   const venner = [
-    { name: "Aurora", url: "", bilde: aurora },
-    { name: "Mikkel", url: "", bilde: mikkel },
-    { name: "Isak", url: "https://isaks.io/", bilde: isak },
+    { name: "Aurora (bff)", url: "", bilde: aurora },
+    { name: "Mikkel (bro)", url: "", bilde: mikkel },
+    { name: "Isak (bf)", url: "https://isak.me/", bilde: isak },
     { name: "Magnus", url: "https://www.magnus.ouren.no", bilde: magnus },
     { name: "Nuutti", url: "https://nuutti.no", bilde: nuutti },
-    { name: "Mattias", url: "https://www.mattiastofte.dev", bilde: mattias },
+    {
+      name: "Mattias (boss)",
+      url: "https://www.mattiastofte.dev",
+      bilde: mattias,
+    },
   ];
 
   return (
