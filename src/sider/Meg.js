@@ -25,7 +25,6 @@ function Meg() {
             <p>Klara Wüstenberg</p>
             <p>29.05.2001</p>
             <p>Oslo</p>
-            <p>48115704</p>
           </div>
           <img
             className="h-28 border-8 border-amber-200"
@@ -33,7 +32,7 @@ function Meg() {
             alt="mistet tann"
           />
         </div>
-        <div>
+        {/* <div>
           <h2 className="mt-10">Noen album jeg liker</h2>
           <div className="flex flex-row flex-nowrap w-full gap-10 overflow-x-scroll">
             <Cover
@@ -67,7 +66,7 @@ function Meg() {
               image={etgodtstupitungtvann}
             />
           </div>
-        </div>
+        </div> */}
         <div>
           <h2>Noen bøker jeg liker</h2>
           <div className="flex flex-row flex-nowrap w-full gap-10 overflow-x-scroll">
@@ -98,7 +97,7 @@ function Meg() {
           </div>
         </div>
         <div>
-          <h2>Noen steder jeg har bodd</h2>
+          <h2>Lokasjon</h2>
           <div className="flex flex-row flex-nowrap w-full gap-10 overflow-x-scroll">
             <Cover
               name="OSLO"

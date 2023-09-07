@@ -10,8 +10,8 @@ import mattias from "../images/venner/mattias_1280.webp";
 
 function Venner() {
   const venner = [
-    { name: "Aurora", url: "", bilde: aurora },
-    { name: "Mikkel", url: "", bilde: mikkel },
+    // { name: "Aurora", url: "", bilde: aurora },
+    // { name: "Mikkel", url: "", bilde: mikkel },
     { name: "Isak", url: "https://isak.me/", bilde: isak },
     { name: "Magnus", url: "https://www.magnus.ouren.no", bilde: magnus },
     { name: "Nuutti", url: "https://nuutti.no", bilde: nuutti },
@@ -25,6 +25,9 @@ function Venner() {
   return (
     <body>
       <Navbar />
+      <p className="mt-10 text-center text-cyan-700">
+        Her er noen av vennene mine og deres personlige nettsider
+      </p>
       <div className="mt-10">
         <List entries={venner} link={venner}></List>
       </div>
