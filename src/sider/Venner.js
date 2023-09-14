@@ -23,10 +23,10 @@ function Venner() {
   ];
 
   return (
-    <body>
+    <body className="font-mono">
       <Navbar />
-      <p className="mt-10 text-center text-cyan-700">
-        Her er noen av vennene mine og deres personlige nettsider
+      <p className="mt-10 text-center">
+        Noen av vennene mine og deres personlige nettsider:
       </p>
       <div className="mt-10">
         <List entries={venner} link={venner}></List>
