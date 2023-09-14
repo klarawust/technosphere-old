@@ -1,11 +1,11 @@
 import React from "react";
 import Cover from "../components/kort/Cover";
 import barn from "../../src/images/annet/meg.jpg";
-import skintyfia from "../../src/images/cover/skintyfia_1280.webp";
-import barnaveuropa from "../../src/images/cover/barnaveuropa.jpeg";
-import blomi from "../../src/images/cover/blomi.jpeg";
-import etgodtstupitungtvann from "../../src/images/cover/etgodtstupigruntvann.jpg";
-import ifonlyasaghost from "../../src/images/cover/ifonlyasaghost.jpeg";
+// import skintyfia from "../../src/images/cover/skintyfia_1280.webp";
+// import barnaveuropa from "../../src/images/cover/barnaveuropa.jpeg";
+// import blomi from "../../src/images/cover/blomi.jpeg";
+// import etgodtstupitungtvann from "../../src/images/cover/etgodtstupigruntvann.jpg";
+// import ifonlyasaghost from "../../src/images/cover/ifonlyasaghost.jpeg";
 import helvete from "../../src/images/cover/helvete_1280.webp";
 import ekko from "../../src/images/cover/ekko.jpeg";
 import stakkar from "../../src/images/cover/stakkar.jpeg";

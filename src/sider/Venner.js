@@ -2,9 +2,7 @@ import Navbar from "../components/navbar/Navbar";
 import React from "react";
 import List from "../components/list/List";
 import isak from "../images/venner/isak_1280.webp";
-import mikkel from "../images/venner/mikkel_1280.webp";
 import magnus from "../images/venner/magnus_1280.webp";
-import aurora from "../images/venner/aurora_1280.webp";
 import nuutti from "../images/venner/nuutti_1280.webp";
 import mattias from "../images/venner/mattias_1280.webp";
 
