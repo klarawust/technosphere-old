@@ -21,7 +21,7 @@ function Venner() {
   ];
 
   return (
-    <body className="font-mono">
+    <body className="font-sans">
       <Navbar />
       <p className="mt-10 text-center">
         Noen av vennene mine og deres personlige nettsider:
