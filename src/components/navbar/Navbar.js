@@ -19,7 +19,9 @@ function Navbar({ links }) {
           />
         ))}
       </ul>
-      <img src={helloklara} alt="tittel" />
+      <a href="/">
+        <img src={helloklara} alt="tittel" />
+      </a>
     </nav>
   );
 }

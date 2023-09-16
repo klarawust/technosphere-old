@@ -1,6 +1,6 @@
 function List({ entries }) {
   return (
-    <div className="font-mono text-center">
+    <div className="font-sans text-center">
       <ul className="flex flex-row flex-wrap justify-center gap-4">
         {entries.map((friend) => (
           <li key={friend.url}>

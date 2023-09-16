@@ -1,6 +1,5 @@
 import tbane from "../../images/bildekant/tbane_1280.webp";
 import opera from "../../images/bildekant/opera_1280.webp";
-import asparges from "../../images/bildekant/asparges_1280.webp";
 import trikk from "../../images/bildekant/trikk_1280.webp";
 import sykkel from "../../images/bildekant/sykkel_1280.webp";
 import paraply from "../../images/bildekant/paraply_1280.webp";
@@ -26,7 +25,6 @@ function Bildekant() {
     paraply,
     roskilde,
     måltid,
-    asparges,
     hageselfie,
     bracket,
     bursdag,

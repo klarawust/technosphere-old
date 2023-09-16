@@ -1,7 +1,7 @@
 import React from "react";
 import Cover from "../components/kort/Cover";
 import barn from "../../src/images/annet/meg.jpg";
-// import skintyfia from "../../src/images/cover/skintyfia_1280.webp";
+import skintyfia from "../../src/images/cover/skintyfia_1280.webp";
 // import barnaveuropa from "../../src/images/cover/barnaveuropa.jpeg";
 // import blomi from "../../src/images/cover/blomi.jpeg";
 // import etgodtstupitungtvann from "../../src/images/cover/etgodtstupigruntvann.jpg";
@@ -31,6 +31,25 @@ function Meg() {
             src={barn}
             alt="mistet tann"
           />
+        </div>
+        <div>
+          <h2>Lokasjon</h2>
+          <div className="flex flex-row flex-nowrap w-full gap-10 overflow-x-scroll">
+            <Cover
+              name="OSLO"
+              artist="2001-2018"
+              year="2019-2021"
+              image={oslo}
+            />
+            <Cover name="BERLIN" artist="2018-2019" year="" image={berlin} />
+            <Cover
+              name="TRONDHEIM"
+              artist="2021-2023"
+              year=""
+              image={trondheim}
+            />
+            <Cover name="ATHEN" artist="2023-2024" year="" image={athen} />
+          </div>
         </div>
         {/* <div>
           <h2 className="mt-10">Noen album jeg liker</h2>
@@ -67,54 +86,46 @@ function Meg() {
             />
           </div>
         </div> */}
-        <div>
-          <h2>Noen bøker jeg liker</h2>
+        {/* <div>
+          <h2>Noen greier jeg liker</h2>
           <div className="flex flex-row flex-nowrap w-full gap-10 overflow-x-scroll">
             <Cover
               name="Ekko"
               artist="Lena Lindgren"
               year="2021"
               image={ekko}
+              type="bok"
             />
             <Cover
               name="Helvete"
               artist="Erlend Loe"
               year="2019"
               image={helvete}
+              type="bok"
+            />
+            <Cover
+              name="Skinty Fia"
+              artist="Fontaines D.C."
+              year="2022"
+              image={skintyfia}
+              type="album"
             />
             <Cover
               name="Stakkar"
               artist="Matias Faldbakken"
               year="2022"
               image={stakkar}
+              type="bok"
             />
             <Cover
               name="Men du ser ikke syk ut"
               artist="Ragnhild Holmås"
               year="2020"
               image={menduserikkesykut}
+              type="bok"
             />
           </div>
-        </div>
-        <div>
-          <h2>Lokasjon</h2>
-          <div className="flex flex-row flex-nowrap w-full gap-10 overflow-x-scroll">
-            <Cover
-              name="OSLO"
-              artist="2001-2018"
-              year="2019-2021"
-              image={oslo}
-            />
-            <Cover name="BERLIN" artist="2018-2019" year="" image={berlin} />
-            <Cover
-              name="TRONDHEIM"
-              artist="2021-2023"
-              year=""
-              image={trondheim}
-            />
-            <Cover name="ATHEN" artist="2023-2024" year="" image={athen} />
-          </div>
-        </div>
+        </div> */}
       </div>
     </body>
   );

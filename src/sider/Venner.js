@@ -24,7 +24,7 @@ function Venner() {
     <body className="font-sans">
       <Navbar />
       <p className="mt-10 text-center">
-        Noen av vennene mine og deres personlige nettsider:
+        Noen av vennene mine og deres nettsider:
       </p>
       <div className="mt-10">
         <List entries={venner} link={venner}></List>

@@ -49,18 +49,18 @@ function CV() {
         <Kategori>Utdanning</Kategori>
         <Beskrivelse>
           Norges tekniske og naturvitenskaplige universitet, Trondheim ‑
-          Bachelor i Informatikk <br />
+          Bachelor i Informatikk - 2021-2024 <br />
           Elvebakken videregående skole, Oslo ‑ 2017-2020
         </Beskrivelse>
         <Kategori>Andre Kvalifikasjoner</Kategori>
         <Beskrivelse>
-          Programmeringsspråkene jeg har erfaring med er: HTML, CSS, Javascript,
-          Python, Java, React, Next.js, Typescript, Astro
+          HTML, CSS, Javascript, Python, Java, React, Next.js, Typescript,
+          Tailwind, Astro, Git, SQL
           <br />
           Annet:{" "}
           <ul>
-            <li>Svært gode språkkunnskaper i engelsk og tysk</li>
-            <li> Førerkort klasse B</li>
+            <li> -Svært gode språkkunnskaper i engelsk og tysk</li>
+            <li> -Førerkort klasse B</li>
           </ul>{" "}
         </Beskrivelse>
       </div>
