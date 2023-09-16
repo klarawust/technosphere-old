@@ -3,6 +3,7 @@ import Tittel from "../components/CVtekst/Tittel";
 import Beskrivelse from "../components/CVtekst/Beskrivelse";
 import helloklara from "../images/projects/helloklara_1280.webp";
 import greekingout from "../images/projects/greekingout_1280.webp";
+import toolhub from "../images/projects/toolhub_1280.webp";
 
 function Prosjekter() {
   return (
@@ -12,9 +13,8 @@ function Prosjekter() {
         <div className="flex flex-col gap-2">
           <Tittel>helloklara.com</Tittel>
           <Beskrivelse>
-            Denne nettsiden er mitt første personlige prosjekt. Her kan du bli
-            litt kjent med meg og hva jeg driver med. Jeg har laget nettsiden i
-            React ved bruk av Tailwind. Designet har jeg laget i Figma.{" "}
+            Denne nettsiden er mitt første personlige prosjekt. Nettsiden er
+            laget med React og Tailwind. Designet har jeg laget i Figma.{" "}
           </Beskrivelse>
           <img
             className="border-2 border-yellow"
@@ -47,7 +47,7 @@ function Prosjekter() {
           </Beskrivelse>
           <img
             className="border-2 border-yellow"
-            src={greekingout}
+            src={toolhub}
             alt="bilde av toolhub"
           ></img>
         </div>
