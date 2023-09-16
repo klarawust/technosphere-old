@@ -9,8 +9,8 @@ import phuyen from "../images/projects/phuyen_1280.webp";
 function Prosjekter() {
   return (
     <body>
-      <div className="flex flex-col gap-20 mt-20 text-xl">
-        <h1 className="text-4xl mt-20 text-sky-600">PROSJEKTER</h1>
+      <div className="flex flex-col gap-16 mt-20 text-xl">
+        <h1 className="text-4xl text-sky-600">PROSJEKTER</h1>
         <div className="flex flex-col gap-2">
           <Tittel>helloklara.com</Tittel>
           <Beskrivelse>
