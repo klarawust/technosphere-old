@@ -16,8 +16,11 @@ function App() {
           <Prosjekter />
         </div>
         <div className="col-span-1 font-mono">
-          <h1 className="sm:hidden text-4xl text-sky-600 mx-[10vw]">BILDER</h1>
-          <Bildekant />
+          {window.innerWidth > 640 ? (
+            <>
+              <Bildekant />
+            </>
+          ) : null}
         </div>
       </div>
     </main>
