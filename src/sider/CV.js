@@ -8,7 +8,7 @@ function CV() {
   return (
     <body className="font-mono">
       <Navbar />
-      <div className="mt-20 ml-80 mr-96 pr-40 mb-20">
+      <div className="flex flex-col items-start my-10 mx-20 text-left">
         <Kategori>Erfaring</Kategori>
         <Tittel>Utvikler kateter sommerinternship ‑ 2023</Tittel>
         <Beskrivelse>
