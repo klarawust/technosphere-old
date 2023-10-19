@@ -35,6 +35,13 @@ function Meg() {
         <div>
           <h2>Lokasjon</h2>
           <div className="flex flex-row flex-nowrap w-full gap-10 overflow-x-scroll">
+            <Cover name="📍ATHEN" artist="2023-2024" year="" image={athen} />
+            <Cover
+              name="TRONDHEIM"
+              artist="2021-2023"
+              year=""
+              image={trondheim}
+            />
             <Cover
               name="OSLO"
               artist="2001-2018"
@@ -42,13 +49,6 @@ function Meg() {
               image={oslo}
             />
             <Cover name="BERLIN" artist="2018-2019" year="" image={berlin} />
-            <Cover
-              name="TRONDHEIM"
-              artist="2021-2023"
-              year=""
-              image={trondheim}
-            />
-            <Cover name="ATHEN" artist="2023-2024" year="" image={athen} />
           </div>
         </div>
         {/* <div>
